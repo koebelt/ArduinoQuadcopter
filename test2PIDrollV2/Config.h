@@ -15,7 +15,7 @@
 #define UNARMED     0    // ready sauf moteurs
 #define STABILIZE   2   // vol contrôlé stabilisé
 #define FLYING      0   // en vol
-#define EMERGENCY   1   // stoppe les moteurs: CHUTE
+#define EMERGENCY   0   // stoppe les moteurs: CHUTE
 #define MOT_START_MINIMUM       1090 // µs nécessaire pour décoller et avoir correction d'assiette possible
 #define MOT_MAX     2000
 //==========================================   PID Config   =========================================================================
